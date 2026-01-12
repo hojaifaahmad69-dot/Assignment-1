@@ -5,13 +5,70 @@
 
   *{margin: 0;padding: 0;box-sizing: border-box;}
 
-  header{color: #FFFFFF;}
 
-  nav{display: flex;justify-content: center;justify-content: space-around;}
+.btn-1{margin: 24px;font-size: 16px;font-weight: 600;color: #FFFFFF;background-color: #469165;max-width: 164px;padding: 16px;border: none;border-radius: 4px;}
+
+  nav{display: flex;justify-content: center;justify-content: space-around;color: #FFFFFF;}
 
   nav .navber-logo{margin: 16px;max-width: 139px;}
 
   nav .menu-bar{display: flex;list-style: none;align-items: center;gap: 32px;}
 
   nav .menu-bar li a{text-decoration: none;color: #000000;}
-  .btn{margin: 24px;font-size: 16px;font-weight: 600;color: #FFFFFF;background-color: #469165;max-width: 164px;padding: 16px;border: none;border-radius: 4px;}
+
+  
+  
+  #banner{background-image: url(/assets/hero-bg.png);width: 1600px;height: 674px;padding-top: 115.5px;}
+
+
+  .banner-heading{text-align: center;justify-content: center;}
+
+  .banner-container h5{font-weight: 600;color: #469165;background-color: #FFFFFF;padding: 12px;border-radius: 1000px;max-width: 229px;margin: 0 auto;}
+
+  .banner-heading h1{font-size: 72px;font-weight: bold;line-height: 84px;color: #FFFFFF;opacity: 90%;margin-top: 16px;}
+
+  .banner-heading h2{font-size: 72px;font-weight: bold;line-height: 84px;color: #30B868;opacity: 90%;}
+
+.banner-heading p{font-size: 18px;line-height: 30px;color: #FFFFFF;margin-top: 16px;}
+
+.banner-button-container{display: flex;justify-content: center;margin-top: 32px;gap: 16px;}
+
+.btn-2{font-size: 16px;font-weight: 500;color: #FFFFFF;background-color: #469165;max-width: 251px;max-height: 52px; padding: 16px;border: none;border-radius: 4px;}
+
+.btn-3{font-size: 16px;font-weight: 500;color: black;max-width: 251px;max-height: 52px; padding: 16px;border:solid white 1px;border-radius: 4px;}
+
+#bookmark-section{}
+
+.bookmark-container{width: 85%;max-width: 1360px;margin: 0 auto;text-align: center;}
+
+.bookmark-container-heading h1{font-size: 48px;font-weight: bold;color: #001931;padding-top: 90px;}
+
+.bookmark-container-heading p{color: #627382;line-height: 20px;margin-top: 16px;}
+
+#bookmark-section .card-container{display: flex;justify-content: center;margin-top: 44px;gap: 24px;}
+
+.card-container .card{max-width: 322px;max-height: 300px; padding: 24px;border-radius: 8px;color: #FFFFFF;box-shadow: 0 0 8px 0 #0000001f;}
+
+.card-container .card .img-container{margin: 70px auto 16px auto;background-color: #F95555;width:60px;height: 60px;border-radius: 10000px;padding: 14px;}
+
+ .img-container img{height: 32px;}
+
+.card-container .card h3{ font-size: 24px;font-weight: 500px;color: #001931;}
+
+.card-container .card p{margin-top: 16px;line-height: 20px;color: #627382;}
+
+#solution .solution-container{width: 85%;max-width: 1360px;margin:120px;display: flex;gap: 60px;}
+
+.solution-heading{align-content: center;}
+
+.solution-heading h4{font-weight: 500; line-height: 20px;color: #469165;}
+
+.solution-heading h1{margin: 16px auto; font-size: 48px;font-weight: bold;color: #001931;}
+
+.solution-heading p{line-height: 20px;color: #627382;margin-bottom: 40px;}
+
+  .solution-heading ul{list-style-image: url(/assets/CheckCircle.png);list-style-position:inside;}
+
+  .solution-heading ul li{line-height: 20px;font-weight:500;color: #001931;margin-bottom: 16px;}
+
+  
