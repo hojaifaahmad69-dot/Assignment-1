@@ -8,6 +8,9 @@
 
 .btn-1{margin: 24px;font-size: 16px;font-weight: 600;color: #FFFFFF;background-color: #469165;max-width: 164px;padding: 16px;border: none;border-radius: 4px;}
 
+
+.btn-4{font-size: 16px;font-weight: 500;color: #FFFFFF;background-color: #469165;max-width: 194px;max-height: 52px; padding: 16px;border: none;border-radius: 4px;box-shadow: 0 10px 20px #00000018;margin-bottom: 16px;}
+
   nav{display: flex;justify-content: center;justify-content: space-around;color: #FFFFFF;}
 
   nav .navber-logo{margin: 16px;max-width: 139px;}
@@ -70,5 +73,13 @@
   .solution-heading ul{list-style-image: url(/assets/CheckCircle.png);list-style-position:inside;}
 
   .solution-heading ul li{line-height: 20px;font-weight:500;color: #001931;margin-bottom: 16px;}
+
+  #early-section .early-container{width: 85%;max-width: 1360px;background-color: #F7F6F2;margin: 0 120px 120px 120px;text-align: center;border-radius: 12px;padding: 80px 40px;}
+
+  .early-heading h1{font-size: 40;font-weight: bold;color: #001931;margin-bottom: 16px;}
+
+  .early-heading p{line-height: 24px;color: #627382;margin-bottom: 24px;}
+
+.early-heading .under-button-p{line-height: 20px;color: #627382;}
 
   
