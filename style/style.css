@@ -7,9 +7,19 @@
 
 
 .btn-1{margin: 24px;font-size: 16px;font-weight: 600;color: #FFFFFF;background-color: #469165;max-width: 164px;padding: 16px;border: none;border-radius: 4px;}
+.btn-1:hover{transform: scale(1.05);}
+
+.btn-2{font-size: 16px;font-weight: 500;color: #FFFFFF;background-color: #469165;max-width: 251px;max-height: 52px; padding: 16px;border: none;border-radius: 4px;display: flex;align-items: center;gap: 6px;}
+.btn-2:hover{transform: scale(1.05);}
 
 
-.btn-4{font-size: 16px;font-weight: 500;color: #FFFFFF;background-color: #469165;max-width: 194px;max-height: 52px; padding: 16px;border: none;border-radius: 4px;box-shadow: 0 10px 20px #00000018;margin-bottom: 16px;}
+.btn-3{max-width: 251px;max-height: 52px; padding:12px 16px;border:solid white 1px;border-radius: 4px;}
+.btn-3:hover{transform: scale(1.05);}
+
+.btn-3 a{display: flex;align-items: center;gap: 10px; text-decoration: none;color:#FFFFFF;font-weight:500;}
+
+.btn-4{display: inline-flex; gap: 10px; font-size: 16px;font-weight: 600;color: #FFFFFF;background-color: #469165;max-width: 194px;max-height: 52px; padding: 12px 16px;border: none;border-radius: 4px;box-shadow: 0 10px 20px #00000018;margin-bottom: 16px;}
+.btn-4:hover{transform: scale(1.05);}
 
   nav{display: flex;justify-content: center;justify-content: space-around;color: #FFFFFF;}
 
@@ -26,7 +36,7 @@
 
   .banner-heading{text-align: center;justify-content: center;}
 
-  .banner-container h5{font-weight: 600;color: #469165;background-color: #FFFFFF;padding: 12px;border-radius: 1000px;max-width: 229px;margin: 0 auto;}
+   .banner-heading h5{display: flex;justify-content: center; align-items: center;gap: 6px;font-weight: 600;color: #469165;background-color: #FFFFFF;padding: 12px;border-radius: 1000px;max-width: 229px;margin: 0 auto;}
 
   .banner-heading h1{font-size: 72px;font-weight: bold;line-height: 84px;color: #FFFFFF;opacity: 90%;margin-top: 16px;}
 
@@ -35,10 +45,6 @@
 .banner-heading p{font-size: 18px;line-height: 30px;color: #FFFFFF;margin-top: 16px;}
 
 .banner-button-container{display: flex;justify-content: center;margin-top: 32px;gap: 16px;}
-
-.btn-2{font-size: 16px;font-weight: 500;color: #FFFFFF;background-color: #469165;max-width: 251px;max-height: 52px; padding: 16px;border: none;border-radius: 4px;}
-
-.btn-3{font-size: 16px;font-weight: 500;color: black;max-width: 251px;max-height: 52px; padding: 16px;border:solid white 1px;border-radius: 4px;}
 
 #bookmark-section{}
 
@@ -70,9 +76,9 @@
 
 .solution-heading p{line-height: 20px;color: #627382;margin-bottom: 40px;}
 
-  .solution-heading ul{list-style-image: url(../assets/CheckCircle.png);list-style-position:inside;}
+  .solution-heading ul{list-style: none;}
 
-  .solution-heading ul li{line-height: 20px;font-weight:500;color: #001931;margin-bottom: 16px;}
+  .solution-heading ul li{display: flex;align-items: center;gap: 6px; line-height: 20px;font-weight:500;color: #001931;margin-bottom: 16px;}
 
   #early-section .early-container{width: 85%;max-width: 1360px;background-color: #F7F6F2;margin: 0 120px 120px 120px;text-align: center;border-radius: 12px;padding: 80px 40px;}
 
