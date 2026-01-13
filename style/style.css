@@ -21,7 +21,7 @@
 
   
   
-  #banner{background-image: url(/assets/hero-bg.png);width: 1600px;height: 674px;padding-top: 115.5px;}
+  #banner{background-image: url(../assets/hero-bg.png);width: 1600px;height: 674px;padding-top: 115.5px;}
 
 
   .banner-heading{text-align: center;justify-content: center;}
@@ -70,7 +70,7 @@
 
 .solution-heading p{line-height: 20px;color: #627382;margin-bottom: 40px;}
 
-  .solution-heading ul{list-style-image: url(/assets/CheckCircle.png);list-style-position:inside;}
+  .solution-heading ul{list-style-image: url(../assets/CheckCircle.png);list-style-position:inside;}
 
   .solution-heading ul li{line-height: 20px;font-weight:500;color: #001931;margin-bottom: 16px;}
 
